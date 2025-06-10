@@ -1,0 +1,27 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:azure;
+}
+
+
+.content {
+    display:flex;
+}
+
+.logo-background {
+    width:35vw;
+    height:100vh;
+    border:2px solid red;
+    background:url('./img/1.jpg') no-repeat center center / cover;
+}
+
+.form-section {
+    width:75vw;
+    height:100vh;
+    border:2px solid blue;
+}
