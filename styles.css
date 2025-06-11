@@ -138,6 +138,24 @@ input:hover {
     border:2px solid green;
 }
 
-input[type="text"]:valid {
-    border:2px solid green;
+input:focus {
+    border:1px solid green;
+    background-color:lightgreen;
+}
+
+input:focus-visible {
+    border:1px solid green;
+    background-color:lightgreen;
+    outline:none;
+}
+
+input:valid {
+    border:1px solid green;
+    background-color:lightgreen;
+}
+
+
+input:invalid:not(:placeholder-shown) {
+    border:1px solid red;
+    background-color:lightsalmon;
 }

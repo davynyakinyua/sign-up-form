@@ -41,36 +41,36 @@
                     <div class="form-row">
                         <div class="column">
                             <label for="firstName">FIRST NAME</label>
-                            <input type="text" name="firstName" id="firstName" placeholder="Thor" required>
+                            <input type="text" name="firstName" id="firstName" pattern="[A-Za-z0-9]+" placeholder="Thor" required>
                         </div>
 
                         <div class="column">
                             <label for="lastName">LAST NAME</label>
-                            <input type="text" name="lastName" id="lastName" placeholder="Odinson" required>
+                            <input type="text" name="lastName" id="lastName" pattern="[A-Za-z0-9]+" placeholder="Odinson" required>
                         </div>
                     </div>
                             
                     <div class="form-row">
                         <div class="column">
                             <label for="email">EMAIL</label>
-                            <input type="email" name="email" id="email" required>
+                            <input type="email" name="email" id="email" placeholder="odin@mail.com" required>
                         </div>
 
                         <div class="column">
                             <label for="phone-no">PHONE NUMBER</label>
-                            <input type="number" name="phoneNo" id="phone-no" required>
+                            <input type="tel" name="phoneNo" id="phone-no" placeholder="0100 000 000" pattern="^\d{10}$" minlength="10" maxlength="10" required>
                         </div>
                     </div>
                             
                     <div class="form-row">
                         <div class="column">
                             <label for="pwd">PASSWORD</label>
-                            <input type="password" name="password" id="pwd" required>
+                            <input type="password" name="password" id="pwd" placeholder="Enter password" minlength="8" maxlength="12" required>
                         </div>
 
                         <div class="column">
                             <label for="confirm-pwd">CONFIRM PASSWORD</label>
-                            <input type="password" name="confirmPassword" id="confirm-pwd" required>
+                            <input type="password" name="confirmPassword" id="confirm-pwd" placeholder="Enter password" minlength="8" maxlength="12" required>
                         </div>
                     </div>
 
