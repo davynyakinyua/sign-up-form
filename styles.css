@@ -25,8 +25,9 @@ body {
     height:100vh;
     background:url('./img/1.jpg') no-repeat center center / cover;
     display:flex;
-    justify-content: center;
-    align-items:start;
+    justify-content: space-between;
+    align-items:center;
+    flex-direction: column;
 }
 
 
@@ -132,6 +133,11 @@ button {
     border:1px solid #596D48;
 }
 
+button:hover {
+    background-color:lightgreen;
+    color:black;
+}
+
 .log-in {
     margin:1rem 0;
 } 
@@ -171,4 +177,19 @@ input:invalid:not(:placeholder-shown) {
     font-size:5rem;
     color:white;
     background-color:black;
+}
+
+.unsplash {
+    color:white;
+    margin-top:2rem;
+}
+
+.unsplash a  {
+    color:white;
+    font-size:0.8rem;
+}
+
+.unsplash p {
+    color:white;
+    font-size:0.8rem;
 }
