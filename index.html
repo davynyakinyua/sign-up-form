@@ -24,44 +24,65 @@
             <div class="form-section">
 
                 <!--Top part of the right side section-->
-                <div class="page-description">
-                    Join our community today and unlock exclusive benefits tailored 
-                    just for you! Signing up is quick and easy—simply fill out the 
-                    form below to get started. Experience personalized content, 
-                    special offers, and stay updated with the latest news and events!
+                <div class="right-top-container">
+                    <div class="page-description">
+                        Join our community today and unlock exclusive benefits tailored
+                        just for you! Signing up is quick and easy—simply fill out the
+                        form below to get started. Experience personalized content,
+                        special offers, and stay updated with the latest news and events!
+                    </div>
+                    <div class="page-description">You know you want to.</div>
                 </div>
 
-                <div class="page-description">You know you want to.</div>
-
                 <!--This is the form container-->
-                <div class="form">
-                    <form action="./script.js" method="post">
-                        <div class="form-background">
-                            <h2>Lets do this!</h2>
+                <form action="./script.js" method="post" class="form">
+                    <p>Let's do this!</p>
+                            
+                    <div class="form-row">
+                        <div class="column">
                             <label for="firstName">FIRST NAME</label>
                             <input type="text" name="firstName" id="firstName" placeholder="Thor" required>
+                        </div>
+
+                        <div class="column">
                             <label for="lastName">LAST NAME</label>
                             <input type="text" name="lastName" id="lastName" placeholder="Odinson" required>
+                        </div>
+                    </div>
+                            
+                    <div class="form-row">
+                        <div class="column">
                             <label for="email">EMAIL</label>
                             <input type="email" name="email" id="email" required>
+                        </div>
+
+                        <div class="column">
                             <label for="phone-no">PHONE NUMBER</label>
                             <input type="number" name="phoneNo" id="phone-no" required>
+                        </div>
+                    </div>
+                            
+                    <div class="form-row">
+                        <div class="column">
                             <label for="pwd">PASSWORD</label>
                             <input type="password" name="password" id="pwd" required>
+                        </div>
+
+                        <div class="column">
                             <label for="confirm-pwd">CONFIRM PASSWORD</label>
                             <input type="password" name="confirmPassword" id="confirm-pwd" required>
                         </div>
-                        <div class="button">
+                    </div>
 
-                            <button type="submit">Create Account</button>
+                </form>
 
-                        </div>
+                <div class="button">
+
+                        <button type="submit">Create Account</button>
 
                         <div class="log-in">Already have an account? <a href="">Log in</a></div>
 
-                    </form>
-            
-                </div>
+                    </div>
 
             </div>
         </div>
