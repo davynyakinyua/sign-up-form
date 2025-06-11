@@ -12,7 +12,7 @@
 }
 
 body {
-    background-color:azure;
+    background-color:#f7f9fa;
 }
 
 
@@ -29,10 +29,6 @@ body {
     align-items:start;
 }
 
-.form-section {
-    width:75vw;
-    height:100vh;
-}
 
 .logo-container {
     display:flex;
@@ -56,12 +52,47 @@ body {
 
 .form-section {
     display:flex;
-    border:2px solid blue;
     padding:1rem;
     flex-direction:column;
     gap:1rem;
+    width:75vw;
+    height:100vh;
+    align-items:start;
+    justify-content:center;
 }
 
-.page-description, .form {
-    border:2px solid red;
+button {
+    background-color:#596D48;
+    color:white;
+    padding:0.3rem 2rem;
+    border-radius: 10%;
+    border:1px solid #596D48;
+}
+
+label, input {
+    margin:0.5rem;
+    font-size:0.7rem;
+}
+
+input {
+    width:30%;
+}
+
+.page-description {
+    width:50vw;
+    font-weight:bold;
+    line-height:1.3rem;
+}
+
+.form {
+    width:40vw;
+}
+
+.form-background {
+    background-color:#ffffff;
+    padding:1rem;
+}
+
+.page-description, .form, .button, .log-in {
+    padding:1rem;
 }
