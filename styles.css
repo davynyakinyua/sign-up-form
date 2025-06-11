@@ -53,7 +53,6 @@ body {
 .form-section {
     display:flex;
     flex-direction:column;
-    background-color:white;
     background-color:#f9fafb;
     width:75vw;
     height:100vh;
@@ -71,6 +70,7 @@ body {
 .form {
     width:100%;
     background-color:white;
+    box-shadow:0 2px 4px lightgray;
 }
 
 .page-description, .form, .button {
@@ -118,6 +118,12 @@ input {
     font-weight:bold;
 }
 
+.button {
+    margin:0 -2vw -2vw -2vh;
+    padding:1rem;
+    background-color:#f9fafb;
+}
+
 button {
     background-color:#596D48;
     color:white;
@@ -128,11 +134,7 @@ button {
 
 .log-in {
     margin:1rem 0;
-}
-
-.right-top-container, .form, .button {
-    margin-left:1rem;
-}
+} 
 
 input:hover {
     border:2px solid green;
@@ -158,4 +160,15 @@ input:valid {
 input:invalid:not(:placeholder-shown) {
     border:1px solid red;
     background-color:lightsalmon;
+}
+
+.registration {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    font-family:my-font, sans-serif;
+    font-size:5rem;
+    color:white;
+    background-color:black;
 }
