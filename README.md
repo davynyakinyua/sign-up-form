@@ -1,5 +1,11 @@
 # sign-up-form
 
-# Image attribution
-Photo by <a href="https://unsplash.com/@haliewestphoto?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Halie West</a> on <a href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+#This project has been completed using HTML and CSS.
+
+The main headline for this project is the login form and its validation
+including the UI features especially the colors to help the user know when validation is successfull in this case color green, and red to indicate validation failure.
+
+#Feedback is greatly appreciated
+
+#Thanks
       
